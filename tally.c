@@ -1,4 +1,4 @@
-/*  INF3173 - TP1
+/*  INF3173 - TP2
  *  Session : automne 2021
  *  Tous les groupes
  *  
