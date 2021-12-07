@@ -34,12 +34,6 @@ const int *CMD_COUNT_OUTPUT = &pipeline_cmd_to_count[1];
 const int *COUNT_CMD_INPUT = &pipeline_count_to_cmd[0];
 const int *COUNT_CMD_OUTPUT = &pipeline_count_to_cmd[1];    
 
-void handle_signal(int signal) {
-    
-    printf(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Attrapé signal %i\n", signal);
-    
-}
-
 void quit(int exit_code) {
     exit(exit_code);
 }
